@@ -80,6 +80,6 @@ if __name__ == '__main__':
          (continue_plus_in_20_d, 15),
          (continue_minus_in_20_a, 15)]
     for t, n in l:
-        for x in xrange(1, n):
+        for x in xrange(0, n):
             t()
 
